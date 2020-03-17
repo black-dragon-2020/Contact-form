@@ -1,0 +1,15 @@
+form{
+    max-width: 450px;
+    margin: 50px auto;
+}
+
+form input,form textarea{
+    margin-bottom: 6px;
+}
+
+
+.alert-success,.alert-danger{
+    max-width: 450px;
+    margin-left: 30%;
+    display: none ;
+}
