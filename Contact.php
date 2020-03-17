@@ -12,8 +12,8 @@
         $mail->SMTPAuth=true;
         $mail->SMTPSecure='tls';
         
-        $mail->Username='abdelkodoussbelhaimer20@gmail.com';
-        $mail->Password='Abdou1997';
+        $mail->Username='*****';//your email
+        $mail->Password='*******';//your password
         
         $mail->setFrom($_POST['email'],$_POST['Nom'].' '.$_POST['Prenom']);
         $mail->addAddress('abdelkodoussbelhaimer@gmail.com');
